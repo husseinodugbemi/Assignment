@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+}
+
+#register-page {
+  background-color: blueviolet;
+  margin: auto;
+  padding: 50px;
+  width: 40%;
+  border: 1px solid grey;
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  flex-direction: column;
+}
+.form label {
+  margin: 10px 10px 5px 0;
+  font-size: 20px;
+  color: white;
+}
+.form input,
+select {
+  padding: 10px;
+  vertical-align: middle;
+  border: 1px solid white;
+  border-radius: 14px;
+  background-color: white;
+  margin: 5px 10px 5px 0;
+  width: 300px;
+  font-size: 15px;
+}
+input[type="text"]:focus {
+  background-color: ;
+}
+input[type="color"] {
+  width: 100px;
+}
+input[type="submit"] {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+}
+
+#register-page button {
+  background-color: cyan;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  width: 100px;
+}
+#register-page button a {
+  text-decoration: none;
+}
+#register-page h2 {
+  text-align: center;
+  color: white;
+}
